@@ -1,0 +1,11 @@
+
+sudo apt-get update
+sudo apt-get install apache2
+sudo nano /etc/apache2/apache2.conf
+sudo nano /etc/apache2/apache2/sitesavailable/000-default.conf
+sudo mkdir /var/www/html/mi_sitio
+sudo mkdir /var/www/html/mi_sitio/prueba
+sudo nano /var/www/html/mi_sitio/.htaccess
+sudo nano index.html
+sudo systemctl restart apache2
+
